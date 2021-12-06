@@ -1,6 +1,5 @@
 package com.example.section4.demo.service;
 
-import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.stereotype.Service;
 
 import guru.springframework.norris.chuck.ChuckNorrisQuotes;

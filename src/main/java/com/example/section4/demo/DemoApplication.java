@@ -16,9 +16,6 @@ public class DemoApplication {
 
 
 		System.out.println(service.makeJoke());
-
-
-
 	}
 
 }
