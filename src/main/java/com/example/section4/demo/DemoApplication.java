@@ -1,7 +1,7 @@
 package com.example.section4.demo;
 
 
-import com.example.section4.demo.service.JokeServiceImpl;
+import com.example.section4.demo.services.JokeServiceImpl;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
