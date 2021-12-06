@@ -1,5 +1,8 @@
 package com.example.section4.demo;
 
+
+import com.example.section4.demo.service.JokeServiceImpl;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -7,7 +10,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		var ctx = SpringApplication.run(DemoApplication.class, args);
+
+		var service = (JokeServiceImpl) ctx.getBean("jokeServiceImpl");
+
+
+		System.out.println(service.makeJoke());
+
+
+
 	}
 
 }
